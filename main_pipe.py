@@ -16,17 +16,16 @@ import single_linkage_cluster
 import delta_parse
 import os
 import pickle
-import union_find_cluster
 import sys
 
 
 '''constants'''
 
 #set locaiton of delta files
-delta_dir = '/srv/home/s4204666/abisko/dan/repeatm_tests/all_assemblies/filtered_2000bp/nucmer_feed_out'
+delta_dir = '/srv/home/s4479877/python/RecurM_Script/nucmer_feed_out'
 
 #set location of assemblies
-assembly_dir = '/srv/home/s4204666/abisko/dan/repeatm_tests/all_assemblies/filtered_2000bp'
+assembly_dir = '/srv/home/s4479877/python/RecurM_Script'
 
 #set location of bam files
 bam_dir = ''
